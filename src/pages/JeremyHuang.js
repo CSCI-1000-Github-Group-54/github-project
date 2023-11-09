@@ -10,7 +10,7 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://imgflip.com/i/85ijp4'
+            src='https://i.postimg.cc/rskqMY4R/segfaultmeme.jpg'
             alt='Average Seg Fault'
           />
 
