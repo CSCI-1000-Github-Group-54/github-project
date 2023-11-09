@@ -12,7 +12,7 @@ export default function examplePage() {
             className='pic'
             src='https://i.postimg.cc/tgv8TVGd/coredumpmeme.jpg'
             alt='Average Seg Fault'
-            width='400'
+            width='800'
           />
 
           <p className='description'>
