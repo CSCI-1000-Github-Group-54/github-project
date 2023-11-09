@@ -10,8 +10,8 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            src='https://i.postimg.cc/tgv8TVGd/coredumpmeme.jpg'
+            alt='Average Seg Fault'
           />
 
           <p className='description'>
