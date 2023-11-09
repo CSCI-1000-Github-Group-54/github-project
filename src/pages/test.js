@@ -25,6 +25,8 @@ export default function examplePage() {
             hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
           </p>
 
+		<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7116092120137887744" height="599" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
           <a className='button' href='/'>
             <p> Back to Home Page</p>
           </a>
