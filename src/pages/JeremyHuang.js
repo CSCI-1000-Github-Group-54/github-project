@@ -10,10 +10,8 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/tgv8TVGd/coredumpmeme.jpg'
+            src='https://imgflip.com/i/85ijp4'
             alt='Average Seg Fault'
-            width="400" 
-            height="200"
           />
 
           <p className='description'>
@@ -21,7 +19,7 @@ export default function examplePage() {
             I am a depressed Broncos fan (Why, Russel Wilson, why can't you throw
             a ball????). I am also quite the Nuggets fan and watch too much basketball
             for my own good. I should probably spend all this time actually studying Math
-            and CS rather than watching Nikola Jokic be too good at basketball. 
+            or computer science rather than watching Nikola Jokic be too good at basketball. 
             I also play a lot of Catan - especailly during COVID lockdown. If you 
             ever want to play a game of Catan online (colonist.io), DM me on discord
             at "sandsowkd".
