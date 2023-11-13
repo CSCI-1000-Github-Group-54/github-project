@@ -1,32 +1,25 @@
 export default function examplePage() {
     return (
       <div className='container'>
-        <title>Website</title>
-        <link rel='icon' href='/favicon.ico' />
+		<title>I'm in your walls</title>
+		<link rel="icon" href="favicon.ico" />
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Spider man. </h1>
+            <h1 className='title'>Graphics Design is my Passion</h1>
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+			src="will_you_change_your_ways_or_will_you_weep_to_an_audience_of_deaf_ears.png"
+			alt="Will you change your ways? Or will you weep to an audience of deaf ears?"
           />
 
           <p className='description'>
-            Hey I am your friendly neighbourhood Spider Man. My real name is Tom
-            Holland. I am an actor but mostly I fight villains and juggle high school.
-            I am just your average student – well, maybe not so average. 
-            You see, I've got some incredible powers, like superhuman strength, agility, 
-            and the ability to shoot webs from my wrists. With great power comes great 
-            responsibility, and I'm here to protect New York City from all kinds of baddies,
-            from common crooks to supervillains. So, if you ever need a hand or a web-swinging
-            hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
+		  Hi, it's me: your favorite poorly-arranged collection of atoms. My name's up for you to decide, but everyone calls me Bob. I'm your average air-drinking, water-eating, food-inhaling guy. My hobbies include, improperly using commas, either by placing them where they don't belong, or by using them in the middle of a list so it becomes unclear where one item ends and another begins, and even worse by including the word and, sleeping, and generally making sense 100% of 10% of the time. On the outside I may appear stupid, but on the inside I'm not smart. I exist for one purpose and one purpose only: to make the world a sillier place. With great silliness comes great responsibility, and I'm proud to declare my responsibility for 8% of all telephone-related violent crime committed annually worldwide. If you ever need help with something - please hesitate to give me a call.
           </p>
 
           <a className='button' href='/'>
-            <p> Back to Home Page</p>
+            <p>Escape</p>
           </a>
         </main>
 
@@ -55,6 +48,10 @@ export default function examplePage() {
             margin: 0;
             line-height: 1.15;
             font-size: 4rem;
+			text-overflow: clip;
+			white-space: nowrap;
+			overflow: hidden;
+			max-width: 53rem;
           }
 
           .underline {
