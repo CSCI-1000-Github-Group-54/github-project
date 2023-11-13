@@ -2,7 +2,7 @@ export default function examplePage() {
     return (
       <div className='container'>
 		<title>I'm in your walls</title>
-		<link rel="icon" href="https://postimg.cc/qNj82BPS" />
+		<link rel="icon" href="https://i.postimg.cc/k5df3BfJ/will-you-change-your-ways-or-will-you-weep-to-an-audience-of-deaf-ears.png" />
 
         <main>
           <div className='underline'>
@@ -10,7 +10,7 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-			src="https://postimg.cc/qNj82BPS"
+			src="https://i.postimg.cc/k5df3BfJ/will-you-change-your-ways-or-will-you-weep-to-an-audience-of-deaf-ears.png"
 			alt="Will you change your ways? Or will you weep to an audience of deaf ears?"
           />
 
