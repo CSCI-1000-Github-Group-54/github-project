@@ -6,26 +6,29 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Spider man. </h1>
+            <h1 className='title'>Hey, I'm Danny Alemayehu. </h1>
           </div>
           <img
             className='pic'
             src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            alt='daniel alemayehu'
           />
-
+		<img src="" alt='mefr'/>
+		<iframe src="https://giphy.com/embed/ZN9wnUXQyIayXXyLnK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/primevideo-br-anime-amazon-prime-video-evangelion-30-ZN9wnUXQyIayXXyLnK">via GIPHY</a></p>
+		
           <p className='description'>
-            Hey I am your friendly neighbourhood Spider Man. My real name is Tom
-            Holland. I am an actor but mostly I fight villains and juggle high school.
-            I am just your average student – well, maybe not so average. 
-            You see, I've got some incredible powers, like superhuman strength, agility, 
-            and the ability to shoot webs from my wrists. With great power comes great 
-            responsibility, and I'm here to protect New York City from all kinds of baddies,
-            from common crooks to supervillains. So, if you ever need a hand or a web-swinging
-            hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
-          </p>
-
-		<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7116092120137887744" height="599" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+		<pre>
+		<span>
+        	My name is Danny Alemayehu!<br></br>
+			I am studying CS through the BS program and currently taking Data Structures. <br></br>
+			Next Semester I hope to be a course assistant for Data Structures. <br></br>
+			I am a part of the CU TKD Club. <br></br>
+			I'm also a member of NSBE and BSA. <br></br>
+			My favorite speaker was Dr. Anderson. <br></br>
+			I hope I can use my CS knowledge to pioneer CS research whether in the industry or through university.<br></br>
+		</span>
+		</pre>
+		</p>
 
           <a className='button' href='/'>
             <p> Back to Home Page</p>
@@ -67,7 +70,23 @@ export default function examplePage() {
           .description {
             line-height: 1.5;
             font-size: 1.5rem;
+			text-color: 00f100;
           }
+
+		  span{
+			color: #00f100;
+			background-color:black;
+			}
+
+			pre {
+				color: whitesmoke;
+				background-color: black;
+				scrollbar-color: dark;
+				width: 100%;
+				max-height: 800px;
+				display: inline-block;
+				overflow: auto;
+			}
 
           .pic {
             height: 450px;
