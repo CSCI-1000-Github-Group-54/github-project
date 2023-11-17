@@ -6,27 +6,32 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Jeremy. </h1>
+            <h1 className='title'>Hey, I'm Danny Alemayehu. </h1>
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/rskqMY4R/segfaultmeme.jpg'
-            alt='Average Seg Fault'
+            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
+            alt='daniel alemayehu'
           />
-
+		<img src="" alt='mefr'/>
+		<iframe src="https://giphy.com/embed/ZN9wnUXQyIayXXyLnK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/primevideo-br-anime-amazon-prime-video-evangelion-30-ZN9wnUXQyIayXXyLnK">via GIPHY</a></p>
+		
           <p className='description'>
-            Hi, I'm Jeremy Huang, a freshman studying Math and CS at CU Boulder.
-            I am a depressed Broncos fan (Why, Russel Wilson, why can't you throw
-            a ball????). I am also quite the Nuggets fan and watch too much basketball
-            for my own good. I should probably spend all this time actually studying Math
-            or computer science rather than watching Nikola Jokic be too good at basketball. 
-            I also play a lot of Catan - especailly during COVID lockdown. If you 
-            ever want to play a game of Catan online (colonist.io), DM me on discord
-            at "sandsowkd".
-          </p>
+		<pre>
+		<span>
+        	My name is Danny Alemayehu!<br></br>
+			I am studying CS through the BS program and currently taking Data Structures. <br></br>
+			Next Semester I hope to be a course assistant for Data Structures. <br></br>
+			I am a part of the CU TKD Club. <br></br>
+			I'm also a member of NSBE and BSA. <br></br>
+			My favorite speaker was Dr. Anderson. <br></br>
+			I hope I can use my CS knowledge to pioneer CS research whether in the industry or through university.<br></br>
+		</span>
+		</pre>
+		</p>
 
-          <a className='button' href='https://www.linkedin.com/in/jerhuang/'>
-            <p> My Linkedin </p>
+          <a className='button' href='/'>
+            <p> Back to Home Page</p>
           </a>
         </main>
 
@@ -65,7 +70,23 @@ export default function examplePage() {
           .description {
             line-height: 1.5;
             font-size: 1.5rem;
+			text-color: 00f100;
           }
+
+		  span{
+			color: #00f100;
+			background-color:black;
+			}
+
+			pre {
+				color: whitesmoke;
+				background-color: black;
+				scrollbar-color: dark;
+				width: 100%;
+				max-height: 800px;
+				display: inline-block;
+				overflow: auto;
+			}
 
           .pic {
             height: 450px;
