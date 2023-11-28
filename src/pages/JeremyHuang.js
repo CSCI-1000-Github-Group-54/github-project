@@ -6,7 +6,7 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hey, I'm Jeremy. </h1>
+            <h1 className='title'>Hey, I'm Jeremy Huang. </h1>
           </div>
           <img
             className='pic'
@@ -15,18 +15,18 @@ export default function examplePage() {
           />
 
           <p className='description'>
-            Hi, I'm Jeremy Huang, a freshman studying Math and CS at CU Boulder.
-            I am a depressed Broncos fan (Why, Russel Wilson, why can't you throw
-            a ball????). I am also quite the Nuggets fan and watch too much basketball
-            for my own good. I should probably spend all this time actually studying Math
-            or computer science rather than watching Nikola Jokic be too good at basketball. 
-            I also play a lot of Catan - especailly during COVID lockdown. If you 
-            ever want to play a game of Catan online (colonist.io), DM me on discord
-            at "sandsowkd".
+            It's me, hi, I'm the problem it's me. <br></br>
+            I'm a freshman studying Math and CS at CU Boulder.
+            I am a dissappointed Broncos fan that actually had hope in Russel Wilson. 
+            I am also quite the Nuggets fan and watch too much basketball
+            for my own good. Other things I enjoy to do is playing Catan and 
+            Pokemon (Console games, Showdown, and Pokemon Go). I'm currently taking
+            Data Structures, and will take Algorithms next semester, and strongly dislike
+            Segmentation Faults (hence the image). I am also a part of CU Hyperloop as well as Boulder
+            Launchpad.
           </p>
-
-          <a className='button' href='https://www.linkedin.com/in/jerhuang/'>
-            <p> My Linkedin </p>
+          <a className='button' href='/'>
+            <p> Back to Home Page</p>
           </a>
         </main>
 
